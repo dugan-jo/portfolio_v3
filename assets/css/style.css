@@ -7,7 +7,7 @@ body {
 }
 
 .title {
-    font-size: 170px;
+    font-size: 60px;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-family: 'Rajdhani', sans-serif;
     line-height: 1;
@@ -90,7 +90,7 @@ p {
 }
 .projectDescription {
     max-width: 240px;
-    max-height: 300px;
+    max-height: 600px;
     /* text-align: center; */
 }
 
