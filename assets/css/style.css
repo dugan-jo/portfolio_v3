@@ -11,8 +11,18 @@ body {
     font-family: 'Fira Sans Condensed', sans-serif;
     font-family: 'Rajdhani', sans-serif;
     line-height: 1;
-    
+    margin-top: 8vh;
 }
+.mainTitle {
+    font-size: 80px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    line-height: 1;
+}
+.contact {
+    margin-bottom: 4vh;
+}
+
 .linespacing {
     line-height: .7;
 }
@@ -56,19 +66,19 @@ p {
     margin-bottom: 0px;
 }
 
+
 .card {
-    /* justify-content: center; */
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     align-items: center;
-    height: 120px;
-    width: 240px;
+    /* height: 120px; */
+    min-width: 270px;
+    max-width:270px;
     border-radius: 140px 140px 0 0;
     -moz-border-radius: 140px 140px 0 0;
     -webkit-border-radius: 140px 140px 0 0;
-    background-color: #253243;
-    overflow: hidden;
-    /* background-color: #4a1052; */
+    background-color: #a1a4a8;
 }
-
 
 .blur {
     filter: blur(3px);
@@ -76,22 +86,19 @@ p {
 .blur1 {
     filter: blur(1px);
 }
-.title_containter{
-    display: flex;
-}
-.project-card{
-    /* overflow: hidden; */
+
+/* .project-card{
     width: 340px;
-}
+} */
 
 .projectTitle {
     max-width: 240px;
     text-align: center;
+    padding-bottom: 4vh;
 }
-.projectDescription {
-    max-width: 240px;
-    max-height: 600px;
-    /* text-align: center; */
+
+.project2 {
+    padding-bottom: 4vh;
 }
 
 .col {
@@ -125,7 +132,6 @@ p {
 }
 
 .project_images_container {
-    
     max-width: 245px;
     overflow: hidden;
     align-items: center;
@@ -136,7 +142,7 @@ p {
     width: 270px;
 }
 
-.biocard {
+/* .biocard {
     align-items: center;
     height: 420px;
     border-radius: 120px 0 0 120px;
@@ -145,7 +151,7 @@ p {
     background-color: #253243;
     overflow: hidden;
     margin-right: 3vh;
-}
+} */
 .personal_image {
     max-height: 387px;
     

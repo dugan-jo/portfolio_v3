@@ -19,4 +19,6 @@ $('.project-card').on('click', function() {
     openProject();
 })
 
+$('.dropdown-toggle').dropdown()
+
 
