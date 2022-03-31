@@ -23,6 +23,11 @@ body {
     margin-bottom: 4vh;
 }
 
+.shadow {
+    -webkit-box-shadow: 7px 9px 38px 10px rgba(0,0,0,0.71); 
+    box-shadow: 7px 9px 38px 10px rgba(0,0,0,0.71);
+}
+
 .linespacing {
     line-height: .7;
 }
